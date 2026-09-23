@@ -1,0 +1,31 @@
+
+/*Selector Universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(199, 82, 135);
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    border: 1px rgb(234, 13, 13);
+    width: 90%;
+    margin: 3px auto;
+    display: flex;
+    /*flex-direction: row ;*/
+    flex-wrap: wrap;
+    /*row-gap: 5px; /*separacion entre filas*/
+    /*column-gap: 5px; /*separacion entre columnas*/
+    gap: 10px  5px;
+}
+
+.elemento{
+    border: 1px rgb(232, 205, 0) solid;
+    width: 24%;
+    flex-basis: 1;
+    flex-grow: 1;
+}

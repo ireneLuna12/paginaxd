@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Dulce Rosa</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+
+     <!--flexbox-->
+    <div class="contenedor"> 
+     <!-- item1: banner, titulo, subtitulo -->
+     <div class="item1">
+         <h2>Dulce Rosa</h2>
+         <h4>Pastelería Fina y Repostería</h4>
+     </div>
+
+     <!-- item2: menu del lado izquierdo -->
+     <div class="item2">
+         <nav class="menu">
+             <ul>
+                 <li><a href="#pasteles">Pasteles</a></li>
+                 <li><a href="#postres">Postres</a></li>
+                 <li><a href="#acerca">Nosotros</a></li>
+             </ul>
+         </nav>
+     </div>
+
+     <!-- item22: Botones del lado derecho para "Inicio", "Registro" -->
+     <div class="item22">
+         <div class="botones">
+             <button class="boton">Inicio</button>
+             <button class="boton boton2">Registro</button>
+         </div>
+     </div>
+
+     <!-- item3: Imagenes en Vertical (Costado izquierdo) -->
+     <div class="item3">
+         <div class="centrar">
+             <img src="img/Pastel1.jpg" alt="Pastel 1" width="80" height="160">
+         </div>
+         <div class="centrar">
+             <img src="img/Pastel2.jpg" alt="Pastel 2" width="80" height="160">
+         </div>
+     </div>
+
+     <!-- item4: Informacion sobre el giro de la empresa, servicios, productos -->
+     <div class="item4">
+         <h2>Nuestra Empresa</h2>
+         <p>Elaboración de repostería gourmet y postres finos con recetas tradicionales e ingredientes selectos.</p>
+         <h4>Servicios y Especialidades</h4>
+         <p>Pasteles temáticos, servicio para mesas de eventos y bocadillos dulces personalizados.</p>
+     </div>
+
+     <!-- item3: Imagenes en Vertical (Costado derecho) -->
+     <div class="item3">
+         <div class="centrar">
+             <img src="img/Pastel3.jpg" alt="Pastel 3" width="80" height="160">
+         </div>
+         <div class="centrar">
+             <img src="img/Pastel4.jpg" alt="Pastel 4" width="80" height="160">
+         </div>
+     </div>
+
+     <!-- item5: Formulario de Registro -->
+     <div class="item5">
+         <h2>Formulario de Registro</h2>
+         <form method="post">
+             <p>
+                 <input type="text" id="nombre" name="nombre" required placeholder="Escriba su Nombre:" class="caja">
+             </p>
+             <p>
+                 <input type="email" id="correo" name="correo" required placeholder="Escriba su correo electronico:" class="caja">
+             </p>
+             <p>
+                 <button type="submit" class="caja boton3">Registrarse</button>
+             </p>
+         </form>
+     </div>
+
+     <!-- item5: Formuladio para Inicio de Sesion -->
+     <div class="item5">
+         <h2>Inicio de Sesión</h2>
+         <form method="post">
+             <p>
+                 <input type="email" id="correo_login" name="correo_login" required placeholder="Correo electronico:" class="caja">
+             </p>
+             <p>
+                 <input type="password" id="clave" name="clave" required placeholder="Contraseña:" class="caja">
+             </p>
+             <p>
+                 <button type="submit" class="caja boton3">Ingresar</button>
+             </p>
+         </form>
+     </div>
+
+     <!-- item6: Tarjeta, titulo, imagen y descripcion (1) -->
+     <div class="item6">
+         <h4>Pastel Rosa</h4>
+         <div class="centrar">
+             <img src="img/PastelRosa.jpg" height="80" width="80" alt="Pastel">
+         </div>
+         <p>Pastel con cobertura de fresas frescas.</p>
+         <div class="botones">   
+             <button class="boton">Comprar</button>
+             <button class="boton boton2">Ver</button>
+         </div>
+     </div>
+
+     <!-- item6: Tarjeta, titulo, imagen y descripcion (2) -->
+     <div class="item6">
+         <h4>Cupcakes</h4>
+         <div class="centrar">
+             <img src="img/Cupcakes.jpg" height="80" width="80" alt="Cupcakes">
+         </div>
+         <p>Caja surtida con betún artesanal.</p>
+         <div class="botones">   
+             <button class="boton">Comprar</button>
+             <button class="boton boton2">Ver</button>
+         </div>
+     </div>
+
+     <!-- item6: Tarjeta, titulo, imagen y descripcion (3) -->
+     <div class="item6">
+         <h4>Macarons</h4>
+         <div class="centrar">
+             <img src="img/macarrons.jpg" height="80" width="80" alt="Macarons">
+         </div>
+         <p>Rellenos de frambuesa y chocolate.</p>
+         <div class="botones">   
+             <button class="boton">Comprar</button>
+             <button class="boton boton2">Ver</button>
+         </div>
+     </div>
+
+     <!-- item7: Iconos de redes sociales, telefono, correo, direccion de la empresa y Derechos reservados -->
+     <div class="item7">
+         <footer>
+             <p>Tel: 55 1234 5678 | Correo: contacto@dulcerosa.com</p>
+             <p>Dirección: Av. Principal #100, Col. Centro</p>
+             <p>Redes Sociales: Facebook | Instagram | TikTok</p>
+             <p>Pastelería Dulce Rosa &copy;2026. Todos los derechos reservados.</p>
+         </footer>
+     </div>
+
+    </div>
+    
+</body>
+</html>

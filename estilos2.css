@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   background-color: rgb(244, 56, 153);
+   color: aliceblue;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Separación entre todos los cuadros */
+.contenedor{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 10px; /* Separa los cuadros entre filas y columnas */
+}
+
+/* item1: Banner */
+.item1{
+    width: 100px;
+    background: linear-gradient(to right, rgb(199, 82, 135), rgb(244, 56, 153));
+    border: 1px silver solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* item2: Menu intacto como antes (vertical) */
+.item2{
+    width: 60px;
+    flex-basis: 1;
+    flex-grow: 1;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 235, 245));
+    border: 1px rgb(199, 82, 135) solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* item22: Botones */
+.item22{
+    width: 39%;
+    flex-basis: 1;
+    flex-grow: 1;
+    background: linear-gradient(to right, rgb(255, 235, 245), rgb(255, 255, 255));
+    border: 1px rgb(199, 82, 135) solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* item3: Bloques de imágenes en vertical */
+.item3{
+    width: 20px;
+    flex-basis: 1;
+    flex-grow: 1;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 240, 248));
+    border: 1px rgb(199, 82, 135) solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Imágenes cuadradas en los laterales */
+.item3 img {
+    border-radius: 0px;
+    border: 2px rgb(199, 82, 135) solid;
+    margin-bottom: 5px;
+}
+
+/* item4: Giro de la empresa centrado */
+.item4{
+    width: 59px;
+    flex-basis: 1;
+    flex-grow: 1;
+    background: linear-gradient(to right, rgb(255, 240, 248), rgb(255, 255, 255));
+    border: 1px rgb(199, 82, 135) solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* item5: Formularios */
+.item5{
+    width: 49%;
+    flex-basis: 1;
+    flex-grow: 1;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 235, 245));
+    border: 1px rgb(199, 82, 135) solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* item6: Tarjetas */
+.item6{
+    width: 33%;
+    flex-basis: 1;
+    flex-grow: 1;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 240, 248));
+    border: 1px rgb(199, 82, 135) solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Imágenes redondas circulares */
+.item6 img {
+    border-radius: 100px;
+    border: 2px rgb(199, 82, 135) solid;
+}
+
+/* item7: Pie de página */
+.item7{
+    width: 100%;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 235, 245));
+    border: 1px rgb(199, 82, 135) solid;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilos de lista intactos */
+nav ul li{ 
+    margin-left: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(199, 82, 135);
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(119, 15, 65);
+    text-decoration: underline;
+}
+
+h2{
+    color: rgb(119, 15, 65);
+    font-weight: bold;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: rgb(119, 15, 65);
+    font-weight: bold;
+}
+
+p{
+    color: rgb(60, 20, 40);
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.centrar{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.botones{
+    padding: 0px;
+    text-align: center;
+}
+
+.boton{
+    width: 40%;
+    height: 35px;
+    background-color: rgb(199, 82, 135);
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton2{
+    background-color: rgb(119, 15, 65);
+}
+
+.caja{
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px rgb(199, 82, 135) solid;
+    margin: 5px auto;
+}
+
+.boton3{
+    background-color: rgb(199, 82, 135);
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(119, 15, 65);
+}
